@@ -13,3 +13,5 @@ print(f'O Maçã existe nesta lista {v2}')
 
 v3 = 200 in saques
 print(f'O valor 200 esta dentro da lista? {v3}')
+
+e

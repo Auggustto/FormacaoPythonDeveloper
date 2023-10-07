@@ -5,7 +5,10 @@ Correspondente a este valor, deve ser apresentado como resposta o mês do ano po
 em inglês, com a primeira letra maiúscula.
 """
 
-month = int(input("Enter the month number: \n"))
+# month = int(input("Enter the month number: \n"))
+import sys
+
+month = int(sys.stdin.readline()) 
 
 months_dict = {
     1: 'January',

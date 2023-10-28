@@ -21,6 +21,10 @@ class Carro(Veiculo):
 
 class Caminhao(Veiculo):
     def __init__(self, cor, placa, numero_rodas, carregado):
+        """ 
+            O metodo  super() vai chamar a implementação da classe pai Veiculo
+            com isso os metodos da classe pai vão ser herdados
+        """
         super().__init__(cor, placa, numero_rodas)
         self.carregado = carregado
 

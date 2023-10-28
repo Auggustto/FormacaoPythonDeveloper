@@ -7,6 +7,7 @@ class Animal:
 
 
 class Mamifero(Animal):
+    
     def __init__(self, cor_pelo, **kw):
         self.cor_pelo = cor_pelo
         super().__init__(**kw)
@@ -30,5 +31,9 @@ class Ornitorrinco(Mamifero, Ave):
 gato = Gato(nro_patas=4, cor_pelo="Preto")
 print(gato)
 
+"""
+    Obs: quando utilizamos os kwargs nas classes precisamos acessar os valores de formas 
+    nomeadas e não posicional -> (nro_patas=2, cor_pelo="vermelho", cor_bico="laranja")
+"""
 ornitorrinco = Ornitorrinco(nro_patas=2, cor_pelo="vermelho", cor_bico="laranja")
 print(ornitorrinco)

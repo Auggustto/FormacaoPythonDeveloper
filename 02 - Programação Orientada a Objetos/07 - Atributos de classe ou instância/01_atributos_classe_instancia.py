@@ -1,5 +1,6 @@
 class Estudante:
-    escola = "DIO"
+    # -> Vareaveis de classe são unicas para todos os objetos (reflete para todos)
+    escola = "DIO" 
 
     def __init__(self, nome, matricula):
         self.nome = nome
